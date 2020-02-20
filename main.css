@@ -3,11 +3,34 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
-  background: url(https://raw.githubusercontent.com/CodeBerrySchool/simple-quote-page/master/assets/freedom.jpg)
+  height: 100vh;
+  background: url(https://raw.githubusercontent.com/CodeBerrySchool/simple-quote-page/master/assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
+h1 {
+  text-transform: uppercase; 
+  font-weight: 100;
+  font-size: 2.6em;
+  font-family: Candara;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 100px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: -55px;
+}
+
+h1, p {
+  
+}
