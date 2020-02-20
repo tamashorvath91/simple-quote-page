@@ -1,0 +1,13 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: url(https://raw.githubusercontent.com/CodeBerrySchool/simple-quote-page/master/assets/freedom.jpg)
+}
+
